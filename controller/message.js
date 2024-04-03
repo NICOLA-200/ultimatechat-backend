@@ -1,7 +1,7 @@
 import MessageModel from "../model/Message.js";
 import streamifier from "streamifier"
 import cloudinary from 'cloudinary'
-import NotificationModel from "../model/notification.js";
+import NotificationModel from "../model/Notification.js";
 
 
 export const addMessage = async (req, res) => {

@@ -2,7 +2,7 @@ import User from "../model/User.js"
 import { createError } from "../utils/error.js";
 import streamifier from "streamifier"
 import cloudinary from 'cloudinary'
-import NotificationModel from "../model/notification.js";
+import NotificationModel from "../model/Notification.js";
 
 export const getUser = async (req,res,next)=>{
      try {

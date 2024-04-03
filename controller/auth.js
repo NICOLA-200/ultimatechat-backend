@@ -2,7 +2,7 @@ import User from "../model/User.js";
 import bcrypt from "bcryptjs";
 import { createError } from "../utils/error.js";
 import jwt from "jsonwebtoken";
-import NotificationModel from "../model/notification.js";
+import NotificationModel from "../model/Notification.js";
 
 export const register = async (req, res, next) => {
     try {

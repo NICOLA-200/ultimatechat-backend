@@ -1,6 +1,6 @@
 import MessageModel from "../model/Message.js";
 import User from "../model/User.js"
-import NotificationModel from "../model/notification.js";
+import NotificationModel from "../model/Notification.js";
 
 
 export const getNotification = async (req,res) => {
