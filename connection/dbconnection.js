@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
  const connect  = async () => {
     try {
-     await mongoose.connect("mongodb://127.0.0.1:27017/ultimateChat",{ useNewUrlParser: true, 
+     await mongoose.connect(process.env.MONGODB,{ useNewUrlParser: true, 
      useUnifiedTopology: true})
      console.log("db Connected")
     } catch (err)
