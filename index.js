@@ -41,3 +41,5 @@ app.listen(port, () => {
      console.log("port running on port 3000")
      connect()
 })
+
+// export default app
