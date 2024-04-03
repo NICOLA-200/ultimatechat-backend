@@ -35,9 +35,9 @@ app.use("/auth",router)
 app.use("/message",messageRoute)
 
 
+const port = process.env.PORT || 3001
 
-
-app.listen(3001, () => {
+app.listen(port, () => {
      console.log("port running on port 3000")
      connect()
 })
