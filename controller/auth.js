@@ -61,6 +61,7 @@ export const register = async (req, res, next) => {
         .cookie("access_token", token, {
           // httpOnly: true,
           maxAge: time,
+          path:"/",
           secure: true, // Set to true if your app uses HTTPS
           sameSite: "None", // Set to "None" for cross-site requests
           
